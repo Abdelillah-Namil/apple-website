@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sec">
+        <div class="content">
+            <div class="textbox">
+              <h2>that's What <br> <span>I like</span></h2>
+              <p>Apple [ˈæpəl]17 Écouter (litt. « pomme » en anglais) (anciennement Apple Computer) est une entreprise multinationale américaine qui crée et commercialise des produits électroniques grand public,
+                 des ordinateurs personnels et des logiciels. Parmi les produits les plus connus de l'entreprise se trouvent les ordinateurs Macintosh,
+                </p>
+             <a href="">View All produicts</a>
+            </div>
+            <div class="imgbox">
+              <img src="iphones/5e90a834c7c8f9000434dd96.png"  class="pepsi ">
+            </div>
+          </div>
+          <ul class="thumb">
+            <li><img  src="iphones/5e90a834c7c8f9000434dd96.png" onclick="changeBgColor('#0062be');imgSlider('iphones/5e90a834c7c8f9000434dd96.png')" > </li>
+            <li><img  src="iphones/61d2f93392b57c0004c64747.png" onclick="changeBgColor('#e60c2c');imgSlider('iphones/61d2f93392b57c0004c64747.png')" ></li>
+            <li><img  src="iphones/61d2f9ce92b57c0004c64749.png" onclick="changeBgColor('#1e1e1e');imgSlider('iphones/5e90a834c7c8f9000434dd96.png')"></li>
+          </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+          document.querySelector('.pepsi').scr = anything;
+        }
+        
+        function changeBgColor(color){
+          const sec = document.querySelector('.sec');
+          sec.style.background = color;
+        }
+      </script>
+    
+</body>
+</html>

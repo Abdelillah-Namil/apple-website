@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.mos {
+    width: 15vw;
+    transition: 1s;
+
+}
+.mos:hover{
+    color: black;
+    background-color: white;
+
+}
+.sec{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text{
+    width: 50vw;
+    margin: 3% 0 0 3%;
+}
+.text h2{
+    font-size: 50px;
+    
+}
+.icons{
+    margin: 14% 3% 0 3% ;
+}
+.pip img{
+    width: 30vw;
+    margin-left: 9%;
+    
+}
+.icons li{
+    list-style: none;
+    
+}
+.icons img{
+    margin-top: 16%;
+    transition: 1s;
+}
+.icons img:hover{
+    transform: rotate(360deg);
+    
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    
+}
+.edit li a{
+    color: rgb(208, 205, 205);
+}
+.edit li a:hover{
+    color: white;
+}
+.bg{
+    background-color: rgb(31, 31, 31,.9);
+    
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+.list li{
+    
+    margin-left: 30px;
+    margin-right: 29px;
+    margin-top: 1.7% ;
+   
+    
+}
+.appel{
+   width: 8%;
+   margin: 0 3% 0 auto;
+}
+#phone{
+    max-width: 100%;
+}
+.old{
+   background-image: url(boooom.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   width: 100vw;
+   height: 100vh;
+   max-width: 100%;
+    
+}
+.bord{
+    border-radius: 20px;
+    transition: 1s;
+}
+.bord:hover{
+    border-radius: 0%;
+}
+.ss{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#sold{
+    padding: 3%;
+    border: rgb(144, 144, 144) solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.7s;
+    
+    
+}
+#sold:hover{
+    border: black solid;
+    background-color: black;
+    color: white;
+    transform: scale(105%);
+}
+#btn{
+    transition: 0.7s;
+}
+#btn:hover{
+    background-color: black;
+   
+    border: black solid;
+    transform: scale(102%);
+}
+#color{
+    border: rgb(144, 144, 144) solid;
+    border-radius: 10px;
+    transition: 0.7s;
+    margin-left: 5%;
+
+}
+#color:hover{
+    border: black solid;
+    background-color: black;
+    color: white;
+    transform: scale(105%);
+}
+@keyframes suii{
+    0%   {transform: translate(0,0);color: white; text-decoration: none;}
+    50%  {transform: translate(0,20px);color: black;text-decoration: none;}
+   
+    
+    100% {transform: translate(0,0);color: black;text-decoration: none;}
+  }
+.keay{
+   position: absolute;
+    animation: suii 4s infinite;
+   margin-left: 10%;
+}
+.pho{
+    width: 130%; 
+    margin-left: -8%;
+}
+
+@media  (max-width:600px)  {
+    .ss{
+        flex-wrap: wrap;
+        
+    }
+    .jojo{
+        width: 75%;
+        
+        margin:0 auto 0 auto;
+
+    }
+    .pho{
+        margin: 0;
+    }
+    .colr{
+        margin-top: 3%;
+    }
+    .view{
+        margin-top: -30%;
+    }
+    .sol1{
+        width: 80%;
+        margin:0 3% 3% auto;
+    }
+    .sol2{
+        width: 75%;
+        margin-left: 5%;
+    }
+    .font{
+        font-size: 20px;
+       text-align: center;
+    }
+    .ss{
+        font-size: 12px;
+        
+    }
+    .sis{
+        font-size: 12px;
+        margin-top: 15%;
+    }
+    .buy{
+        font-size: 11px;
+    }
+    .pr{
+        
+        margin-top: -5%;
+    }
+    .pr2{
+        margin-top: -3%;
+    }
+    .pr3{
+        margin-top: -10%;
+    }
+    .list li{
+        font-size: 14px;
+        margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 2% ;
+    }
+    .appel{
+       width:12%;
+      
+    }
+}

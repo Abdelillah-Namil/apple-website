@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+ 
+}
+.icons2 img{
+  margin-top: 5%;
+  
+}
+.icons {
+    margin-left: 23px;
+    
+}
+
+.pic a{
+  color: rgb(41, 41, 41);
+  text-decoration: none;
+  transition: 1s;
+   
+}
+.pic a:hover{
+    transform: scale(120%);
+}
+.ft{
+  background-color: rgb(235, 233, 233)
+}
+.ft footer{
+  color: gray; 
+  ; margin-right: 5%;
+  margin-left: 5%;
+  font-size: 10px;
+}
+.ft footer li{
+  margin-top: 0.5%;
+  font-size: 12px;
+}
+.last li {
+  list-style: none;
+  transition: 0.5s;
+ 
+}
+.last a{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.last li:hover{
+  transform: scale(120%);
+}
